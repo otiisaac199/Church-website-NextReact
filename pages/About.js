@@ -1,4 +1,5 @@
 import Head from "next/head";
+import AboutPage from "../Comps/AboutPage/AboutPage";
 
 function About() {
   return (
@@ -7,7 +8,7 @@ function About() {
         <title>Church | About</title>
       </Head>
       <div>
-        <h1>About</h1>
+        <AboutPage />
       </div>
     </>
   );

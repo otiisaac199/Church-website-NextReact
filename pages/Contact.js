@@ -1,4 +1,5 @@
 import Head from "next/head";
+import ContactPage from "../Comps/ContactPage/ContactPage";
 
 function Contact() {
   return (
@@ -7,7 +8,7 @@ function Contact() {
         <title>Church | Contact</title>
       </Head>
       <div>
-        <h1>Contact</h1>
+        <ContactPage />
       </div>
     </>
   );

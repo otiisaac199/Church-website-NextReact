@@ -1,4 +1,5 @@
 import Head from "next/head";
+import BlogPage from "../Comps/BlogPage/BlogPage";
 
 function Blog() {
   return (
@@ -7,7 +8,7 @@ function Blog() {
         <title>Church | Blog</title>
       </Head>
       <div>
-        <h1>Blog</h1>
+        <BlogPage />
       </div>
     </>
   );
