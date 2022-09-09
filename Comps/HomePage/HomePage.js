@@ -1,5 +1,4 @@
 import Banner from "./Banner";
-import CompStyles from "../comps.module.css";
 
 function HomePage() {
   return (

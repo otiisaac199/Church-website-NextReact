@@ -1,12 +1,11 @@
 import styles from "../../styles/Home.module.css";
 import Link from "next/link";
-import Image from "next/image";
 
 const Navbar = () => {
   return (
     <div className={styles.nav_flex}>
       <div className={styles.logo}>
-        <Image
+        <img
           src="/images/vector.png"
           width={120}
           height={30}

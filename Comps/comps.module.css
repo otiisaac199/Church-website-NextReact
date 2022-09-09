@@ -1,0 +1,31 @@
+.banner {
+  background: url(../public/images/Image.png);
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 0 7rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.banner > p {
+  font-weight: bold;
+}
+
+.banner > h1 {
+  font-size: 3rem;
+  width: 500px;
+}
+.banner_button {
+  margin: 2.5rem 0;
+}
+
+.banner_bottom_text {
+  display: flex;
+  width: 350px;
+  font-size: 15px;
+}
