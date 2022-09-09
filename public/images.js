@@ -1,0 +1,15 @@
+import iconOne from "./images/icon(1).png";
+import iconTwo from "./images/icon(2).png";
+import iconThree from "./images/icon(3).png";
+import iconFour from "./images/icon(4).png";
+import imageOverlay from "./images/Image overlay.png";
+import image from "./images/Image.png";
+import imageOne from "./images/Image(1).png";
+import imageTwo from "./images/Image(2).png";
+import imageThree from "./images/Image(3).png";
+import imageFour from "./images/Image(4).png";
+import imageFive from "./images/Image(5).png";
+import imageSix from "./images/Image(6).png";
+import quoteIcon from "./images/Quote Icon.png";
+import logo from "./vector";
+import One from "./3MWdi5_6Hrc.png";
