@@ -154,6 +154,16 @@
   outline: unset;
 }
 
+.footer_icon .ico {
+  font-size: 1.2rem;
+  margin: 0 5px;
+  color: #ffd2a4;
+  cursor: pointer;
+}
+.footer_icon .ico:hover {
+  color: #fff;
+  transition: 0.3s;
+}
 /* LAYOUT END */
 
 /* HOMEPAGE */

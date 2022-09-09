@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../../styles/Home.module.css";
-// import {BiFacebook} from "rea"
+import { IoLogoFacebook } from "react-icons/io5";
+import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
 
 function Footer() {
   return (
@@ -42,6 +43,11 @@ function Footer() {
         </div>
         <div className={styles.social_handles}>
           <h4>Connect</h4>
+          <div className={styles.footer_icon}>
+            <IoLogoFacebook className={styles.ico} />
+            <AiFillTwitterCircle className={styles.ico} />
+            <AiFillLinkedin className={styles.ico} />
+          </div>
         </div>
         <div className={styles.subscribe}>
           <h1>SUBSCRIBE TO GET LATEST UPDATE AND NEWS</h1>
