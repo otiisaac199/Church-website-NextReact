@@ -5,7 +5,7 @@
   background-size: cover;
   background-position: center;
   color: #fff;
-  padding: 0 7rem;
+  padding: 0 5rem;
 
   display: flex;
   flex-direction: column;
@@ -28,4 +28,16 @@
   display: flex;
   width: 350px;
   font-size: 15px;
+}
+
+/* Church  */
+
+.church_relevant_content {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 5rem;
+}
+
+.church_relevant_content .content_box {
+  padding: 0 3rem;
 }

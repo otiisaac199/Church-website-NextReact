@@ -29,7 +29,7 @@
   font-family: Agency FB;
   background: #0d0d0d;
   color: #fff;
-  padding: 0 7rem;
+  padding: 0 5rem;
 }
 
 .logo {
@@ -85,7 +85,7 @@
   padding: 0 7rem;
   background: #161722;
   color: #fff;
-  padding: 4rem 7rem;
+  padding: 4rem 5rem;
 }
 
 .footer p {
@@ -106,8 +106,7 @@
 .right_footer_side {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  flex: 2;
+  flex: 3;
   line-height: 2.5rem;
 }
 
@@ -115,9 +114,13 @@
   flex: 1;
 }
 
+.quicklinks p:hover {
+  color: #ffd2a4;
+}
+
 .social_handles {
   flex: 1;
-  margin: 0 2rem;
+  margin: 0 20px;
 }
 .quicklinks p {
   cursor: pointer;
@@ -136,7 +139,7 @@
   width: fit-content;
   border-radius: 10px;
   display: flex;
-  border: 1px solid lightgray;
+  border: 1px solid gray;
   margin-top: 3.7rem;
 }
 
@@ -172,6 +175,42 @@
 .list_line {
   width: 30px;
   height: 2px;
+  background: #ffd2a4;
+}
+
+.content_head {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.content_box {
+  width: 30%;
+  height: auto;
+  background: #fff5eb;
+  box-sizing: content-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content_box_top {
+  padding: 4rem;
+  height: 80%;
+}
+
+.content_box_top p {
+  font-size: 12px;
+  line-height: 1.5rem;
+}
+
+.content_box h3 {
+  margin: 1rem 0;
+}
+
+.content_box div:last-child {
+  width: 100%;
+  height: 7%;
   background: #ffd2a4;
 }
 

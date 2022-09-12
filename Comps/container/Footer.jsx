@@ -34,7 +34,7 @@ function Footer() {
           <Link href="/Sermon">
             <p>SERMONS</p>
           </Link>
-          <Link href="/">
+          <Link href="/event">
             <p>EVENTS</p>
           </Link>
           <Link href="Blog">
