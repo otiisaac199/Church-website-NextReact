@@ -41,3 +41,10 @@
 .church_relevant_content .content_box {
   padding: 0 3rem;
 }
+
+.compassion_text {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  padding-top: 3rem;
+}
