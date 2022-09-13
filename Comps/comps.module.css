@@ -75,7 +75,7 @@
   flex-direction: column;
   align-items: center;
   margin: 2rem 0;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 
 .compassion_img_content:nth-child(2) .compassion_img_content_child {

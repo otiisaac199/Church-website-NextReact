@@ -1,10 +1,10 @@
 import styles from "../styles/Home.module.css";
 
-function ContentHead({ ...children }) {
+function ContentHead({ pText, h1Text }) {
   return (
     <div className={styles.content_head}>
-      <p>{children.pText}</p>
-      <h1>{children.h1Text}</h1>
+      <p>{pText}</p>
+      <h1>{h1Text}</h1>
     </div>
   );
 }

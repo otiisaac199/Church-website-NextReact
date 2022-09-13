@@ -2,6 +2,10 @@
 
 /* LAYOUT */
 
+.p {
+  color: rgb(79, 79, 79);
+}
+
 .not_found {
   display: flex;
   flex-direction: column;
@@ -181,6 +185,10 @@
 .content_head {
   text-align: center;
   margin-top: 7rem;
+}
+
+.content_head p {
+  line-height: 4rem;
 }
 
 .content_box {

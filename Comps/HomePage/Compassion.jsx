@@ -4,8 +4,13 @@ import ContentHead from "../ContentHead";
 import Image from "next/image";
 import ImagesModule from "../../public/images";
 import styled from "styled-components";
+import { BsArrowRight } from "react-icons/bs";
 
-const Heading = styled.div``;
+const DivCompStyle = styled.div`
+  width: 50%;
+  margin: auto;
+  text-align: center;
+`;
 
 function Compassion() {
   return (
@@ -13,7 +18,7 @@ function Compassion() {
       <ContentHead pText={"SUB-HEADLINE"} h1Text={"LOVE AND COMPASSION"} />
 
       <div className={CompStyles.compassion_text}>
-        <p>
+        <p className={styles.p}>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. A,
           praesentium, deleniti dicta omnis ea aliquam corrupti consequatur
           numquam voluptate tempore distinctio cum neque recusandae est culpa
@@ -53,6 +58,27 @@ function Compassion() {
           />
         </div>
       </div>
+
+      <DivCompStyle className={CompStyles.compassion_celebrate}>
+        <ContentHead
+          pText={"OUR MISSION & VISION"}
+          h1Text={"CELEBRATE WITH US"}
+        />
+        <p className={styles.p}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum id
+          nobis mollitia expedita cupiditate illo nemo, animi consequatur! Hic.
+        </p>
+        <p
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            marginTop: "1rem",
+          }}
+        >
+          Read More &nbsp; <BsArrowRight />
+        </p>
+      </DivCompStyle>
     </div>
   );
 }
