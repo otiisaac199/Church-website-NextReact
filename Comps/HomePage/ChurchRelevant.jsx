@@ -2,6 +2,7 @@ import CompStyles from "../comps.module.css";
 import styles from "../../styles/Home.module.css";
 import ContentHead from "../ContentHead";
 import ContentBox from "../ContentBox";
+import ImagesModule from "../../public/images";
 
 function ChurchRelevant() {
   return (
@@ -13,7 +14,7 @@ function ChurchRelevant() {
       <div className={CompStyles.church_relevant_content}>
         <ContentBox
           className={CompStyles.content_box}
-          imgSrc={`../../public/images/Icon(1).png`}
+          imgSrc={ImagesModule.iconOne}
           title="ABOUT US"
           text={
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima quibusdam doloribus. Molestias quo exercitationem facilis"
@@ -21,7 +22,7 @@ function ChurchRelevant() {
         />
         <ContentBox
           className={CompStyles.content_box}
-          imgSrc={`../../public/images/Icon(1).png`}
+          imgSrc={ImagesModule.iconTwo}
           title="GET INVOLVED"
           text={
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima quibusdam doloribus. Molestias quo exercitationem facilis"
@@ -29,7 +30,7 @@ function ChurchRelevant() {
         />
         <ContentBox
           className={CompStyles.content_box}
-          imgSrc={`../../public/images/Icon(1).png`}
+          imgSrc={ImagesModule.iconThree}
           title="GIVING BACK"
           text={
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minima quibusdam doloribus. Molestias quo exercitationem facilis"

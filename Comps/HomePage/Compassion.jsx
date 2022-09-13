@@ -1,7 +1,11 @@
 import CompStyles from "../comps.module.css";
 import styles from "../../styles/Home.module.css";
 import ContentHead from "../ContentHead";
-import Images from "next/image";
+import Image from "next/image";
+import ImagesModule from "../../public/images";
+import styled from "styled-components";
+
+const Heading = styled.div``;
 
 function Compassion() {
   return (
@@ -21,7 +25,32 @@ function Compassion() {
 
       <div className={CompStyles.compassion_img}>
         <div className={CompStyles.compassion_img_content}>
-          <Images alt="" width={300} height={350} />
+          <Image
+            src={ImagesModule.bearedMan}
+            alt=""
+            width={300}
+            height={350}
+            className={CompStyles.compassion_img_content_child}
+          />
+        </div>
+        <div className={CompStyles.compassion_img_content}>
+          <button className={styles.button}>READ MORE</button>
+          <Image
+            src={ImagesModule.mAndWReading}
+            alt="icon"
+            className={CompStyles.compassion_img_content_child}
+            width={350}
+            height={450}
+          />
+        </div>
+        <div className={CompStyles.compassion_img_content}>
+          <Image
+            src={ImagesModule.brownPews}
+            alt=""
+            width={300}
+            height={350}
+            className={CompStyles.compassion_img_content_child}
+          />
         </div>
       </div>
     </div>

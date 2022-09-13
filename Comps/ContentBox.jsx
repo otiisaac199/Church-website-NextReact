@@ -1,12 +1,13 @@
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
-function ContentBox({ ...children }) {
+function ContentBox({ imgSrc, title, text }) {
   return (
     <div className={styles.content_box}>
       <div className={styles.content_box_top}>
-        <img src={children.imgSrc} alt="icon" />
-        <h3>{children.title}</h3>
-        <p>{children.text}</p>
+        <Image src={imgSrc} alt="icon" />
+        <h3>{title}</h3>
+        <p>{text}</p>
       </div>
       <div></div>
     </div>

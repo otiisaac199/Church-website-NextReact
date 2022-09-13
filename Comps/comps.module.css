@@ -46,5 +46,38 @@
   width: 75%;
   text-align: center;
   margin: auto;
-  padding-top: 3rem;
+  padding: 2rem 0;
+}
+
+.compassion_text p {
+  line-height: 1.75rem;
+}
+
+.compassion_img {
+  display: flex;
+  justify-content: center;
+}
+
+.compassion_img_content_child {
+  padding: 0 10px !important;
+}
+
+.compassion_img_content:nth-child(1),
+.compassion_img_content:nth-child(3) {
+  margin-top: 4rem;
+}
+.compassion_img_content:nth-child(2) button {
+  margin-bottom: 2rem;
+}
+
+.compassion_img_content:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+  padding-bottom: 2rem;
+}
+
+.compassion_img_content:nth-child(2) .compassion_img_content_child {
+  border-radius: 20px !important;
 }
